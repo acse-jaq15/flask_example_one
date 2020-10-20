@@ -10,7 +10,7 @@ def index():
     now = time.localtime()
 
     return f"""
-<h1> Welcome! </h1>
+<h1> HELLO MOTO! </h1>
 
 It is {now.tm_hour}:{now.tm_min:02} on {now.tm_mday}/{now.tm_mon}/{now.tm_year}.
 """
